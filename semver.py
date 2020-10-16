@@ -1,8 +1,12 @@
-# import anki
 import re
 import string
 
+# This is an implementation of semver, detailed here:
 # https://semver.org/
+# The Semantic Versioning specification was originally authored by Tom
+# Preston-Werner, inventor of Gravatar and cofounder of GitHub.
+# Creative Commons ― CC BY 3.0
+# https://creativecommons.org/licenses/by/3.0/
 
 valid_semver_regex = (r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-"
                       r"9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*"
